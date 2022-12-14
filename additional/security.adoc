@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: additional/security.html 
+keywords:  
+summary:  
+---
+= Seguridad
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+La API REST de Astra Control proporciona varias capas de seguridad.
+
+
+NOTE: Todo el tráfico de red HTTP está protegido mediante el estándar de protocolo de seguridad de la capa de transporte (TLS).
+
+
+
+== Tokens de API Astra
+
+Para utilizar la API REST de Astra Control, debe proporcionar un identificador de API en cada solicitud de `Authorization` solicite el encabezado. Tenga en cuenta lo siguiente:
+
+* Puede generar un token de API en la interfaz de usuario web de Astra.
+* Un token nunca caduca después de que se crea.
+* Puede revocar un token en cualquier momento en la interfaz de usuario web de Astra.
+
+
+Consulte link:../get-started/get_api_token.html["Obtenga un token de API"] si quiere más información.
+
+
+
+== Revocación de un token de acceso de API
+
+Puede revocar un token de API en la interfaz web de Astra cuando ya no sea necesario.
+
+.Antes de empezar
+Necesita una cuenta para el servicio Astra. También debe identificar los tokens que desea revocar.
+
+.Acerca de esta tarea
+Después de que se revoque un token, éste se puede utilizar de forma inmediata y permanente.
+
+.Pasos
+. Inicie sesión en Astra con sus credenciales de cuenta.
++
+Acceda a las siguientes instalaciones para el servicio Astra Control: https://astra.netapp.io/["https://astra.netapp.io"^]
+
+. Haga clic en el icono de figura situado en la parte superior derecha de la página y seleccione *acceso API*.
+. Seleccione el token o tokens que desea revocar.
+. En el cuadro desplegable *acciones*, haga clic en *revocar tokens*.
+
+
+
+
+== Funciones y control de acceso
+
+Cada usuario de Astra se asigna a una sola función que determina las acciones que se pueden realizar. Los roles se organizan en una jerarquía tal y como se describe en la tabla siguiente.
+
+[cols="15,85"]
+|===
+| Función | Descripción 
+
+
+| Propietario | Tiene todos los permisos de la función Admin y también puede eliminar cuentas Astra. 
+
+
+| Admin | Tiene todos los permisos de la función Miembro y también puede invitar a los usuarios a unirse a una cuenta. 
+
+
+| Miembro | Puede gestionar completamente la aplicación Astra y los recursos informáticos. 
+
+
+| Visionador | Limitado a sólo ver recursos. 
+|===

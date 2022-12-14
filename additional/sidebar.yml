@@ -1,0 +1,10 @@
+---
+section: additional
+title: Consideraciones adicionales sobre EL RESTO
+entries:
+- title: Seguridad
+  url: "/additional/security.html"
+- title: Trabajar con colecciones
+  url: "/additional/working_with_collections.html"
+- title: Diagnóstico
+  url: "/additional/diagnostics_support.html"
