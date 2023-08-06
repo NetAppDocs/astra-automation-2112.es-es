@@ -130,7 +130,7 @@ Los siguientes parámetros de consulta están disponibles para su uso con colecc
 A continuación se describen los códigos de estado HTTP utilizados por la API DE REST de Astra Control.
 
 
-NOTE: La API REST de Astra Control también utiliza el estándar *Detalles del problema para API de HTTP*. Consulte link:diagnostics_support.html["Diagnóstico y soporte"] si quiere más información.
+NOTE: La API REST de Astra Control también utiliza el estándar *Detalles del problema para API de HTTP*. Consulte link:../additional/diagnostics_support.html["Diagnóstico y soporte"] si quiere más información.
 
 [cols="15,20,65"]
 |===
