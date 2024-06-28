@@ -1,0 +1,85 @@
+---
+indexpage:
+  title: Documentación de Astra Control Automation 21.12
+  summary: Astra Control es un producto de software de NetApp que proporciona gestión
+    del ciclo de vida de los datos para sus aplicaciones de Kubernetes. Existen dos
+    modelos de puesta en marcha disponibles en función de su entorno. Tanto Astra
+    Control Center como Astra Control Service comparten la misma API DE REST para
+    una versión determinada. Puede utilizar la API y otras tecnologías de automatización
+    relacionadas para gestionar las puestas en marcha de Astra Control.
+  keywords: astra, astra control, astra control center, astra control service, data
+    management, rest, rest api, kubernetes, deployment, 2112
+  lead: Astra Control es un producto de software de NetApp que proporciona gestión
+    del ciclo de vida de los datos para sus aplicaciones de Kubernetes. Existen dos
+    modelos de puesta en marcha disponibles en función de su entorno. Tanto Astra
+    Control Center como Astra Control Service comparten la misma API DE REST para
+    una versión determinada. Puede utilizar la API y otras tecnologías de automatización
+    relacionadas para gestionar las puestas en marcha de Astra Control.
+  tiles:
+  - title: Manos a la obra
+    links:
+    - title: Introducción
+      summary: Obtenga una descripción general de la API ASTRA REST.
+      url: "/intro/introduction.html"
+    - title: Antes de empezar
+      summary: Prepárese para comenzar a usar la API DE REST.
+      url: "/get-started/before_get_started.html"
+    - title: Obtenga un token de API
+      summary: Genere un token que necesite acceder a la API.
+      url: "/get-started/get_api_token.html"
+    - title: Hola mundo
+      summary: Probar el acceso básico a la API DE REST.
+      url: "/get-started/hello_world.html"
+  - title: Implementación de REST
+    links:
+    - title: Servicios web REST
+      summary: Comprender los fundamentos tecnológicos de LOS servicios web DE REST.
+      url: "/rest-core/rest_web_services.html"
+    - title: Detalles de HTTP
+      summary: Revise los detalles de la implementación HTTP.
+      url: "/rest-core/http_details.html"
+    - title: Formato de URL
+      summary: Comprender el formato de la URL y cómo se compone de varios valores.
+      url: "/rest-core/url_format.html"
+  - title: Consideraciones adicionales
+    links:
+    - title: Seguridad
+      summary: Explore la seguridad que se proporciona con la API DE REST.
+      url: "/additional/security.html"
+    - title: Trabajar con colecciones
+      summary: Utilice los parámetros de consulta para acceder a las colecciones de
+        recursos.
+      url: "/additional/working_with_collections.html"
+    - title: Diagnóstico y soporte
+      summary: Prepárese para admitir aplicaciones Astra.
+      url: "/additional/diagnostics_support.html"
+  - title: Recursos
+    links:
+    - title: Recursos y colecciones
+      summary: Familiarizarse con el diseño de recursos DE DESCANSO y colecciones.
+      url: "/rest-core/resources_collections.html"
+    - title: Recursos de la API REST de Astra Control
+      summary: Revise una introducción concisa a los diversos recursos de Astra.
+      url: "/endpoints/resources.html"
+  - title: Flujos de trabajo
+    links:
+    - title: Preparación
+      summary: Prepárese para utilizar los flujos de trabajo de Astra.
+      url: "/get-started/prepare_to_use_workflows.html"
+    - title: Flujos de trabajo de infraestructura
+      summary: Los flujos de trabajo necesarios para mantener la infraestructura de
+        tiempo de ejecución de Astra.
+      url: "/workflows_infra/workflows_infra_before.html"
+    - title: Flujos de trabajo de gestión
+      summary: Los flujos de trabajo comunes utilizados para administrar las aplicaciones
+        administradas.
+      url: "/workflows/workflows_before.html"
+  - title: Python
+    links:
+    - title: Antes de empezar
+      summary: Prepárese para ejecutar los scripts de Python de ejemplo.
+      url: "/python/python_before.html"
+    - title: Enumere las aplicaciones gestionadas
+      summary: Ejecute una secuencia de comandos de ejemplo para enumerar las aplicaciones
+        administradas.
+      url: "/python/py_list_man_apps.html"
